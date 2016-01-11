@@ -1,0 +1,29 @@
+es:
+  counties:
+    states: 'Estados'  
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      description: 'Descripción: '
+      city: 'Ciudad: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombre'
+      description: 'Descripción'
+      city: 'Ciudad'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      county: 'Delegación o Municipio'
+      counties: 'Delegaciónes y Municipios'
+    attributes:
+      county:
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        city: 'Ciudad'
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

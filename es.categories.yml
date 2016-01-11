@@ -1,0 +1,28 @@
+es:
+  categories:
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombre'
+      description: 'Descripción'
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      category: 'Categoría'
+      categories: 'Categorías'
+    attributes:
+      category:
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

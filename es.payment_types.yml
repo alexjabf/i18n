@@ -1,0 +1,28 @@
+es:
+  payment_types:
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      payment_code: 'Código: '      
+      description: 'Descripción: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombre'
+      payment_code: 'Código'       
+      description: 'Descripción'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      payment_type: 'Tipo de Pago'
+      payment_types: 'Típos de Pago'
+    attributes:
+      payment_type:
+        id: 'Id'      
+        name: 'Nombre'
+        payment_code: 'Código'         
+        description: 'Descripción'
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

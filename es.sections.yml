@@ -1,0 +1,34 @@
+es:
+  sections:
+    show:
+      id: 'Id: '
+      zone_id: 'Zona: '        
+      name: 'Nombre: '
+      description: 'Descripción: '
+      default: 'Predeterminada: '         
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      zone_id: 'Zona'             
+      name: 'Nombre'
+      default: 'Predeterminada'      
+      description: 'Descripción'
+      default: 'Predeterminada'         
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      section: 'Sección'
+      sections: 'Secciónes'
+    attributes:
+      section:
+        id: 'Id'
+        zone_id: 'Zona'               
+        id: 'Id'      
+        name: 'Nombre'
+        default: 'Predeterminada'
+        description: 'Descripción'
+        default: 'Predeterminada'           
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

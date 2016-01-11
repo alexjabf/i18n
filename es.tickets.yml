@@ -1,0 +1,56 @@
+es:
+  tickets:
+    messages:
+      row_must_be_the_same: 'La fila debe de ser la misma en todos los boletos.'
+      seat_numbers_must_be_consecutive: 'Los numeros de asientos deben de ser consecutivos y no deben repetirse.'  
+    general:
+      tickets: 'Boletos'
+      buy_ticket: 'Comprar Boleto'
+      general_entry: 'Entrada General'
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      price: 'Precio: '
+      currency: 'Moneda: '
+      seat_number: 'No. de Asiento: '
+      row: 'Fila: '
+      event_section: 'Sección: '
+      publication: 'Publicaión: '
+      event: 'Evento: '      
+      ticket_status: 'Estado de Boleto: '
+      event_date: 'Fecha: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombr'
+      price: 'Precio'
+      currency: 'Moneda'
+      seat_number: 'No. de Asiento'
+      row: 'Fila'
+      event_section: 'Sección'
+      publication: 'Publicaión'
+      event: 'Evento'   
+      ticket_status: 'Estado de Boleto: '
+      event_date: 'Fecha: '      
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      ticket: 'Boleto'
+      tickets: 'Boletos'
+    attributes:
+      ticket:
+        id: 'Id: '      
+        name: 'Nombre: '
+        price: 'Precio: '
+        currency: 'Moneda: '
+        seat_number: 'No. de Asiento: '
+        row: 'Fila: '
+        event_section: 'Sección: '
+        event_date: 'Fecha: '        
+        publication: 'Publicaión: '
+        event: 'Evento: '   
+        ticket_status: 'Estado de Boleto: '
+        created_at: 'Registrado el: '
+        updated_at: 'Actualizado el: '    

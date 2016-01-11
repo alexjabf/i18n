@@ -1,0 +1,35 @@
+es:
+  event_dates_performers:
+    show:
+      id: 'Id: '
+      performer_id: 'Nombre del artista, grupo, o equipo'
+      event_date_id: 'Fecha del evento'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'       
+    index:
+      id: 'Id'
+      performer_id: 'Nombre del artista, grupo, o equipo'
+      event_date_id: 'Fecha del evento'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      event_dates_performer: 'Fecha del Evento'
+      event_dates_performers: 'Fechas del Evento'
+      event_date: 'Fecha'
+      event_dates: 'Fechas'      
+    attributes:
+      event_dates_performer:
+        id: 'Id'
+        performer_id: 'Nombre del artista, grupo, o equipo'
+        event_date_id: 'Fecha del evento' 
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'
+        performers: 'Artistas, grupos, o equipos' 
+        event_dates: 'Fechas'             
+      event_dates_performer/performers:
+        performer: 'Nombre del artista, grupo, o equipo'
+        event: 'evento'   
+      event_dates_performer/event_dates:
+        date: 'Fecha del evento'
+        time: 'Hora del evento'  

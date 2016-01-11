@@ -1,0 +1,49 @@
+es:
+  venues:
+    messages:
+      at_least_one_zone: 'La cede debe tener al menos una zona.'      
+    general:
+      sections: 'Secciónes'
+      zones: 'Zonas'
+    show:
+      id: 'Id: '
+      city_id: 'Ciudad:'            
+      name: 'Nombre: '
+      capacity: 'Capacidad: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      latitude: 'Latitud: '
+      longitude: 'Longitud: '
+      default: 'Predeterminada: '      
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      city_id: 'Ciudad'              
+      name: 'Nombre'
+      capacity: 'Capacidad'
+      description: 'Descripción'
+      avatar: 'Imagen'
+      latitude: 'Latitud'
+      longitude: 'Longitud'
+      default: 'Predeterminada'      
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      venue: 'Cede'
+      venues: 'Cedes'
+    attributes:
+      venue:
+        id: 'Id'
+        city_id: 'Ciudad'               
+        name: 'Nombre'
+        capacity: 'Capacidad'
+        description: 'Descripción'
+        default: 'Predeterminada'        
+        avatar: 'Imagen'
+        latitude: 'Latitud'
+        longitude: 'Longitud' 
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el' 
+        zones: 'Zonas'

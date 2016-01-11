@@ -1,0 +1,32 @@
+es:
+  subcategories:
+    show:
+      id: 'Id: '
+      category_id: 'Categoría: '        
+      name: 'Nombre: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      category_id: 'Categoría'            
+      name: 'Nombre'
+      description: 'Descripción'
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      subcategory: 'Subcategoría'
+      subcategories: 'Subcategorías'
+    attributes:
+      subcategory:
+        id: 'Id'
+        category_id: 'Categoría'                  
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

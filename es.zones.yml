@@ -1,0 +1,41 @@
+es:
+  zones:
+    sections: 'Secciónes'  
+    messages:
+      at_least_one_section: 'La zona debe tener al menos una sección.'     
+    show:
+      id: 'Id: '
+      venue_id: 'Cede: '        
+      name: 'Nombre: '
+      color: 'Color: '      
+      face_value: 'Costo Predeterminado: '
+      description: 'Descripción: '
+      default: 'Predeterminada: '         
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      venue_id: 'Cede'             
+      name: 'Nombre'
+      color: 'Color'  
+      face_value: 'Costo Predeterminado'
+      description: 'Descripción'
+      default: 'Predeterminada'         
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'    
+  activerecord:
+    models:
+      zone: 'Zona'
+      zones: 'Zonas'
+    attributes:       
+      zone:
+        id: 'Id'
+        venue_id: 'Cede'                  
+        name: 'Nombre'
+        color: 'Color'  
+        face_value: 'Costo Predeterminado'
+        description: 'Descripción'
+        default: 'Predeterminada'        
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el' 
+        sections: 'Secciónes'

@@ -1,0 +1,53 @@
+es:
+  roles:
+    role_types:
+        not_role: 'Sin Role'
+        superadmin: 'Super Administrador'
+        administrator: 'Administrador'
+        default_user: 'Usuario'
+        guess: 'Invitado' 
+        custom: 'Personalizado'    
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      role_type: 'Tipo de Role: '      
+      protected: 'Protegido: '
+      description: 'Descripción: '
+      superadmin: 'Súper Administrador: '
+      administrator: 'Administrador: '
+      default_user: 'Usuario: '
+      guess: 'Invitado: ' 
+      custom: 'Personalizado: '     
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '
+    index:
+      id: 'Id ' 
+      name: 'Nombre'
+      role_type: 'Tipo de Role '        
+      protected: 'Protegido'
+      description: 'Descripción'
+      superadmin: 'Súper Administrador'
+      administrator: 'Administrador: '
+      default_user: 'Usuario'
+      guess: 'Invitado' 
+      custom: 'Personalizado' 
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      role: 'Rol'
+      roles: 'Roles'
+    attributes:
+      role:
+        id: 'Id: '      
+        name: 'Nombre: '
+        role_type: 'Tipo de Role: '          
+        protected: 'Protegido: '
+        description: 'Descripción: '
+        superadmin: 'Súper Administrador: '
+        administrator: 'Administrador: '
+        default_user: 'Usuario: '
+        guess: 'Invitado: ' 
+        custom: 'Personalizado: '       
+        created_at: 'Registrado el: '
+        updated_at: 'Actualizado el: '

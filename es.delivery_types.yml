@@ -1,0 +1,31 @@
+es:
+  delivery_types:
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      cost: 'Costo: '
+      delivery_code: 'Código: '      
+      description: 'Descripción: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombre'
+      cost: 'Costo: '      
+      delivery_code: 'Código'       
+      description: 'Descripción'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      delivery_type: 'Tipo de Envío'
+      delivery_types: 'Típos de Envío'
+    attributes:
+      delivery_type:
+        id: 'Id'      
+        name: 'Nombre'
+        cost: 'Costo: '     
+        delivery_code: 'Código'         
+        description: 'Descripción'
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

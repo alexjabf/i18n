@@ -1,0 +1,33 @@
+es:
+  collection_centers:
+    cities: 'Ciudades'
+    show:
+      id: 'Id: '
+      country_id: 'Paí: '        
+      name: 'Nombre: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      country_id: 'Paí'             
+      name: 'Nombre'
+      description: 'Descripción'
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      collection_center: 'Centro de Recoleccion'
+      collection_centers: 'Centros de Recoleccion'
+    attributes:
+      state:
+        id: 'Id'
+        country_id: 'Paí'               
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

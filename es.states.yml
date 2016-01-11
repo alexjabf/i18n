@@ -1,0 +1,33 @@
+es:
+  states:
+    cities: 'Ciudades'
+    show:
+      id: 'Id: '
+      country_id: 'Paí: '        
+      name: 'Nombre: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      country_id: 'Paí'             
+      name: 'Nombre'
+      description: 'Descripción'
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      state: 'Estado'
+      states: 'Estados'
+    attributes:
+      state:
+        id: 'Id'
+        country_id: 'Paí'               
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

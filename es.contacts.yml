@@ -1,0 +1,36 @@
+es:
+  contacts:
+    issues:
+      buy: 'Compra de boletos'
+      sell: 'Venta de boletos'
+      other: 'Otro'
+      tickets_request: 'Solicitud de Boletos'
+    show:
+      id: 'Id: '      
+      name: 'Nombre Completo: '
+      issue: 'Asunto: '
+      email: 'Correo Electrónico:'
+      comment: 'Comentario: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '
+    index:
+      id: 'Id'      
+      name: 'Nombre Completo'
+      issue: 'Asunto'
+      email: 'Correo Electrónico'
+      comment: 'Comentario'
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      contact: 'Comentario'
+      contacts: 'Comentarios'
+    attributes:
+      contact:
+        id: 'Id: '      
+        name: 'Nombre Completo: '
+        issue: 'Asunto'
+        email: 'Correo Electrónico:'
+        comment: 'Comentario'
+        created_at: 'Registrado el: '
+        updated_at: 'Actualizado el: '

@@ -1,0 +1,130 @@
+es:
+  validations:  
+    selects:
+      required_prompt: Por favor selecciona %{model} (Obligatorio)
+      not_required_prompt: Por favor selecciona %{model} (Opcional)
+    types:
+      text_field: Campo de Texto
+      text_area: Area de Texto
+      password_field: Campo de Password
+      email_field: Campo de Correo Electronico
+      url_field: Campo de URL
+      search_field: Campo de Búsqueda
+      color_field: Color Field
+      hidden_field: Campo Oculto
+      select: Seleccionador
+      number_field: Campo de Número
+      phone_field: Campo de Teléfono
+      telephone_field: Campo de Teléfono (2)
+      check_box: Casilla de Verificación
+      radio_button: Botón de Radio
+      file_field: Seleccionador de Archivo
+      field_set: Field Set
+      image_submit: Imagen
+      datetime_local_select: Seleccionador de Fecha y Hora Local
+      date_select: Seleccionador de Fecha
+      datetime_select: Seleccionador de Fecha y Hora
+      month_select: Seleccionador de Mes
+      week_select: Seleccionador de Semana
+      time_select: Seleccionador de Tiempo
+      range_field: Campo de Rango
+      utf8_enforcer: Utf8 Enforcer
+      normal_display: Normal
+      color_display: Color
+      encrypted_display: Encriptada
+      image_display: Imagén
+      text_display: Texto
+      search_display: Búsqueda
+      text_area_display: Area de Texto
+      number_display: Número
+      percentage_display: Porcentaje
+      big_number_display: Número Grande
+      currency_display: Moneda
+      address_display: Dirección
+      phone_display: Teléfono
+      email_display: Correo Electrónico
+      link_display: Enlace
+      url_display: Página Web
+      date_display: Fecha
+      datetime_display: Fecha y Hora
+      time_display: Tiempo
+      boolean_display: Booleano
+      menu: Menu
+      model: Modelo
+      referenced_column: Columna Referenciada
+      tools: Herramientas
+      actions: Acciones
+      form_reset: Resetear Forma
+      number_of_records: Número de Registros
+      global_validation: Global
+      number: Número
+      address: Dirección
+      phone: Teléfono
+      link: Enlace
+      url: Página Web
+      date: Fecha
+      datetime: Fecha y Hora
+      timestamp: Estampa de Tempo
+      text: Texto
+      name: Nombre
+      username: Nombre de Usuario
+      login: Login
+      zip: Código Postal
+      price: Precio
+      email: Correo Electrónico
+      password: Contraseña
+      time: Hora
+      boolean: Boleano
+      male: Masculino
+      female: Femenino
+      decimal: Decimal/Moneda
+      ip_address: Ip Address
+      search: Búsqueda
+      has_one: Has One
+      has_many: Has Many
+      has_and_belongs_to_many: Has And Belongs To Many
+      development_tools: Development Tools
+      return_to_my_application: Return To My Application
+      erd: Erd
+    messages:
+      wrong_format: "Formato incorrecto."
+      ip_address_message_validator: Ip Address
+      zip_message_validator: Zip
+      global_message_validator: 'Formato incorrecto.'
+      availible_message_validator: 'Disponible'
+      username_message_validator: "Formato de nombre de usuario incorrecto."
+      address_message_validator: "Formato de dirección incorrecto."
+      names_message_validator: "Formato incorrecto."
+      number_message_validator: "Formato número incorrecto."
+      decimal_message_validator: "Formato de número decimal incorrecto."      
+      email_message_validator: "Formato de correo elecronico incorrecto."
+      login_message_validator: "Formato de nombre de usuario o correo elecronico incorrecto."      
+      url_message_validator: "Formato de url incorrecto."
+      password_message_validator: "Formato de contraseña incorrecto."
+      other_message_validator: "Formato incorrecto."
+      phone_message_validator: "Formato de teléfono incorrecto."
+      min_length_message_validator: "caracteres mínimos."
+      max_length_message_validator: "caracteres maximos."
+      date_message_validator: "Formato de fecha incorrecto."
+      time_message_validator: "Formato de hora incorrecto."      
+      text_message_validator: "Formato de texto incorrecto."
+      boolean_message_validator: "Debe seleccionar esta opción."
+      currency_message_validator: "Formato de texto incorrecto."
+      price_message_validator: "Formato de texto incorrecto." 
+      coordinates_message_validator: "Formato de cooerdenadas incorrecto." 
+      commun_chars_message_validator: "Formato de nombre incorrecto." 
+      avatar_message_validator: "Extención de imagen no valido." 
+      datetime_message_validator: "Formato de fecha y hora incorrecto."
+      radiobutton_message_validator: "Debe seleccionar al menos una opción."
+      chars_message_validator: "Formato de texto incorrecto solo se permiten letras." 
+    devise:
+      enter_email: Introduzca su correo electrónico.
+      enter_login: Introduzca su correo electrónico o nombre de usuario.
+      enter_password: Introduzca su contraseña.
+      enter_new_password: Introduzca su nueva contraseña.
+      required_if_new_password: Obligatorio si hay cambio de contraseña
+      enter_new_password_confirmation: Introduzca la confirmación de su nueva contraseña.
+      current_password: Introduzca su contraseña actual para confirmar sus cambios.
+      leave_password_blank: Deje la contraseña en blanco si no desea cambiarla
+      leave_same_username: Dejar el mismo nombre de usuario
+      enter_new_username: Ingresar nuevo nombre de usuario

@@ -1,0 +1,38 @@
+es:
+  cities:
+    show:
+      id: 'Id: '
+      state_id: 'Estado: '        
+      name: 'Nombre: '
+      city: 'Ciudad: '
+      description: 'Descripción: '
+      default: 'Predeterminada'      
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'
+      state_id: 'Estado'             
+      name: 'Nombre'
+      city: 'Ciudad'      
+      description: 'Descripción'
+      default: 'Predeterminada'      
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      city: 'Ciudad'
+      cities: 'Ciudades'
+    attributes:
+      city:
+        id: 'Id'
+        state_id: 'Estado'               
+        id: 'Id'      
+        name: 'Nombre'
+        city: 'Ciudad'
+        description: 'Descripción'
+        default: 'Predeterminada'    
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

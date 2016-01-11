@@ -1,0 +1,52 @@
+es:
+  errors_reports:
+    show: 
+      user: "Id: "
+      user: "Usuario: "
+      controller_name: "Controlador: "
+      action_name: "Acción: "
+      line_number: "Número de Línea: "
+      referrer_url: "Url Referida: "
+      original_path: "Url de Origen: "
+      environment: "Ambiente de Desarrollo: "
+      branch_id: "Sucursal de Compañía "
+      description: "Descripción: "
+      backtrace: "Descripción Completa: "
+      error_time: "Tiempo del Error: "
+      created_at: "Registrado el: "
+      updated_at: "Actualizado el: " 
+    index:
+      id: Id 
+      user: "Usuario"
+      controller_name: "Controlador"
+      action_name: "Acción"
+      line_number: "Número de Línea"
+      referrer_url: "Url Referida"
+      original_path: "Url de Origen"
+      environment: "Ambiente de Desarrollo"
+      branch_id: "Sucursal de Compañía"
+      description: "Descripción"
+      backtrace: "Descripción Completa"
+      error_time: "Tiempo del Error"
+      created_at: "Registrado el"
+      updated_at: "Actualizado el"     
+  activerecord:
+    models:
+      errors_report: 'Reporte de Error'
+      errors_reports: 'Reportes de Errores'
+    attributes:
+      city:
+        id: 'Id'
+        user: "Usuario: "
+        controller_name: "Controlador: "
+        action_name: "Acción: "
+        line_number: "Número de Línea: "
+        referrer_url: "Url Referida: "
+        original_path: "Url de Origen: "
+        environment: "Ambiente de Desarrollo: "
+        branch_id: "Sucursal de Compañía "
+        description: "Descripción: "
+        backtrace: "Descripción Completa: "
+        error_time: "Tiempo del Error: "
+        created_at: "Registrado el: "
+        updated_at: "Actualizado el: "    

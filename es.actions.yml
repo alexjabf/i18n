@@ -1,0 +1,88 @@
+es:  
+  actions:
+    check_user_info: 'Confirma tus datos de publicacón'
+    checking_user_info: 'Confirmando tus datos de publicacón...'
+    add_link: 'Agregar %{model}'
+    remove_link: 'Remover %{model}'
+    enter: 'Entrar'
+    facebook: 'Facebook'
+    send_comment: 'Enviar comentario'
+    sending_comment: 'Enviando comentario'    
+    show_label: Mostrar Etiqueta
+    go_up: 'Ir al inicio de pagína'
+    go_down: 'Ir al final de pagína'
+    main_search: 'Busca tu evento, cede o lugar....'
+    search_results: 'Resultados de la búsqueda de '     
+    not_authorized: 'Usted no está autorizado para visitar esta página.' 
+    error_404: 'Página No Encontrada.' 
+    edit_account: Editar Cuenta  
+    crop: Recortar Imagén
+    add_change_image: Agregar/Cambiar Imagén
+    show_image: Mostrar Imagén 
+    cancel: ' Cancelar'
+    close: ' Cerrar' 
+    add: 'Agregar %{model}'
+    remove: ' Remover %{model}'
+    show: ' Mostrar %{model}'
+    edit: ' Editar %{model}'
+    showing: ' Mostrando %{model}'
+    editing: ' Editando %{model}'
+    indexing: 'Liastado de %{model}'
+    update: ' Actualizar'    
+    destroy: ' Eliminar %{model}'
+    new:  ' Crear %{model}'
+    create:  ' Crear %{model}'    
+    search:  ' Buscar %{model}'
+    enter_new_object_data: 'Introduzca los Datos del Nuevo Registro'
+    main_search: 'Busca tu evento, cede o lugar....'
+    closing: ' Cerrarndo......'    
+    searching:  ' Buscando %{model}......'    
+    newing:  ' Creando %{model}......'
+    createing:  ' Creando %{model}......'    
+    editing:  ' Actualizando %{model}......'
+    updating:  ' Actualizando %{model}......'
+    updateing:  ' Actualizando %{model}......'    
+    destroying:  ' Eliminando %{model} Seleccionados......'
+    changing_password: 'Restableciendo contraseña......'
+    signing_in: 'Iniciando Sesión......'
+    sign_in: 'Iniciar Sesión'     
+    send_email: 'Enviar Correo Electrónico'    
+    created: 
+      male: 'El %{model} fue exitosamente creado.'
+      female: 'La %{model} fue exitosamente creada.'
+    updated: 
+      male: 'El %{model} fue exitosamente editado.'
+      female: 'La %{model} fue exitosamente editada.'
+    destroyed: 
+      male: 'El %{model} fue exitosamente eliminado.'
+      female: 'La %{model} fue exitosamente eliminada.'
+    multiple_destroy:
+      male: ' Eliminar %{model} seleccionados'
+      female: ' Eliminar %{model} seleccionados'      
+    multiple_destroyed:
+      male: 'Los %{model} fueron exitosamente eliminados.'
+      female: 'Las %{model} fueron exitosamente eliminadas.'
+    are_you_sure_multiple_destroy:
+      male: ¿Esta seguro que desea eliminar los %{model} seleccionados?
+      female: ¿Esta seguro que desea eliminar las %{model} seleccionadas?      
+    are_you_sure?: '¿Esta seguro que desea eliminar este(a) %{model}?'      
+    return_to:  ' Regresar a %{model}'
+    go_back: ' Regresar'    
+    sending_email: Enviando Correo Electrónico......
+    changing_password: Cambiando Contraseña......
+    cropping_image: Recortando Imagen
+    going_back: Regresando a Página Anterior......
+    returning: ' Regresando a %{model}......'
+    creating: Espere......
+    deleting: Eliminando %{model}......
+    generate_random_data: Generar Datos Aleatórios Para %{model}
+    index: Indice de %{model}
+    column_added: Columna Agregada
+    generating_random_data: Generando Datos Aleatórios Para %{model}......
+    generate: Generar
+    go_to_url: 'Visitar url: %{url}'
+    send_email_to: 'Enviar correoa: %{mail}'
+    add_column: Agregar Columna
+    add_reference_column: Agregar Columna Referenciada
+    random_data_created:
+      male: Masculino 

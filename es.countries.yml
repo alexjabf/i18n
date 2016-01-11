@@ -1,0 +1,29 @@
+es:
+  countries:
+    states: 'Estados'  
+    show:
+      id: 'Id: '      
+      name: 'Nombre: '
+      description: 'Descripción: '
+      avatar: 'Imagen: '
+      created_at: 'Registrado el: '
+      updated_at: 'Actualizado el: '       
+    index:
+      id: 'Id'      
+      name: 'Nombre'
+      description: 'Descripción'
+      avatar: 'Imagen'  
+      created_at: 'Registrado el'
+      updated_at: 'Actualizado el'      
+  activerecord:
+    models:
+      country: 'País'
+      countries: 'Países'
+    attributes:
+      country:
+        id: 'Id'      
+        name: 'Nombre'
+        description: 'Descripción'
+        avatar: 'Imagen'  
+        created_at: 'Registrado el'
+        updated_at: 'Actualizado el'    

@@ -1,0 +1,280 @@
+es:
+  layouts:
+    application:
+      welcome: 'Bienvenido!!!!'
+      title: 'Bolettos'
+      home: ' Inicio'
+      menu: 'Mostrar menu'
+      events: 'Eventos'
+      shows: 'Espectaculos'
+      sports: 'Deportes'
+      concerts: 'Conciertos'
+      how_it_works: '¿Cómo funciona?'
+      who_are_we: 'Quiénes Somos'
+      sell_or_buy: '¿Te sobran o te faltan?'
+      sell_tickets: 'VENDER'
+      want_to_sell: 'ME SOBRAN'
+      want_to_buy: 'ME FALTAN' 
+      buy_tickets: >-
+                  Compra y vende boletos para cualquier evento!
+                  Los recogemos y te los llevamos a tu casa!
+      contact: 'Contacto'
+      faqs: "FAQ's"
+      terms: 'Términos y Condicions'
+      privacy: 'Aviso de Privacidad'  
+      instagram: 'Instagram'
+      twitter: 'Twitter'
+      facebook: 'Facebook'
+      administration: 'Administración'
+      more_info: 'Más Información' 
+      that_easy: '¡Así de fácil!'
+      that_easy_steps:
+        step_one: 'Compra o vende boletos a travéz de nuestra página.'
+        step_two: 'Programaremos tu envio.'
+        step_three: 'Y nos encargaremos re recoger y entregar los boletos donde tú quieras.'
+      most_popular: 'Lo más popular'
+      see_video: 'Ver video'      
+      calendar: 'Calendario de Eventos'
+      application_name: 'Bolettos'         
+      filter: Filtrar %{model} 
+      wrong_format: 'Formato incorrecto, sólo se permiten '
+      required: 'Obligatorio'
+      not_required: 'Opcional'
+      all_records: Todos
+      show_all_items: Mostrar Todos
+      not_match_found_for: 'No se encontro algun registro con: '      
+      are_you_sure_multiple_destroy:
+        male: ¿Esta seguro que desea eliminar los %{model} seleccionados?
+        female: ¿Esta seguro que desea eliminar las %{model} seleccionadas?
+      text_field: Campo de Texto
+      text_area: Area de Texto
+      password_field: Campo de Password
+      email_field: Campo de Correo Electronico
+      url_field: Campo de URL
+      search_field: Campo de Búsqueda
+      color_field: Color Field
+      hidden_field: Campo Oculto
+      select: Seleccionador
+      number_field: Campo de Número
+      phone_field: Campo de Teléfono
+      telephone_field: Campo de Teléfono (2)
+      check_box: Casilla de Verificación
+      radio_button: Botón de Radio
+      file_field: Seleccionador de Archivo
+      field_set: Field Set
+      image_submit: Imagen
+      datetime_local_select: Seleccionador de Fecha y Hora Local
+      date_select: Seleccionador de Fecha
+      datetime_select: Seleccionador de Fecha y Hora
+      month_select: Seleccionador de Mes
+      week_select: Seleccionador de Semana
+      time_select: Seleccionador de Tiempo
+      range_field: Campo de Rango
+      utf8_enforcer: Utf8 Enforcer
+      normal_display: Normal
+      color_display: Color
+      encrypted_display: Encriptada
+      image_display: Imagén
+      text_display: Texto
+      search_display: Búsqueda
+      text_area_display: Area de Texto
+      number_display: Número
+      percentage_display: Porcentaje
+      big_number_display: Número Grande
+      currency_display: Moneda
+      address_display: Dirección
+      phone_display: Teléfono
+      email_display: Correo Electrónico
+      link_display: Enlace
+      url_display: Página Web
+      date_display: Fecha
+      datetime_display: Fecha y Hora
+      time_display: Tiempo
+      boolean_display: Booleano
+      menu: Menu
+      model: Modelo
+      referenced_column: Columna Referenciada
+      tools: Herramientas
+      actions: Acciones
+      form_reset: Resetear Forma
+      number_of_records: Número de Registros
+      global_validation: Global
+      number: Número
+      address: Dirección
+      phone: Teléfono
+      link: Enlace
+      url: Página Web
+      date: Fecha
+      datetime: Fecha y Hora
+      timestamp: Estampa de Tempo
+      text: Texto
+      name: Nombre
+      username: Nombre de Usuario
+      login: Login
+      zip: Código Postal
+      price: Precio
+      email: Correo Electrónico
+      password: Contraseña
+      time: Hora
+      boolean: Boleano
+      male: Masculino
+      female: Femenino
+      decimal: Decimal/Moneda
+      ip_address: Ip Address
+      search: Búsqueda
+      has_one: Has One
+      has_many: Has Many
+      has_and_belongs_to_many: Has And Belongs To Many
+      development_tools: Development Tools
+      return_to_my_application: Return To My Application
+      erd: Erd
+    partials:
+      navbar:
+        my_account: Mi Cuenta  
+        show_my_account: Mostrar Mi Cuenta
+        edit_my_account: Editar Mi Cuenta
+        main_title: 'Bolettos'
+        home: 'Inicio' 
+        sign_out: 'Salir'
+        sign_in: 'Entrar'
+        sign_up: 'Registrarse'
+        languages: Lenguajes 
+        change_to_english: 'Change to English'
+        change_to_spanish: 'Cambiar a Español'
+        change_language: 'Cambiar de Lenguaje'
+        show_hide_sidebar: Mostrar/Ocultar Menú Lateral
+        user: 'Usuario: '
+        close_session?: '¿Cerrar sesión?'
+        select_logout_html: "Seleccione el boto de 'Salir' <br> si en verdad desea cerrar su sesión."
+    how_it_works:
+      title: 'Cómo Funciona'
+    privacy:
+      title: 'Aviso de Privacidad'
+    terms:
+      title: 'Términos y Condiciones aplicables al uso del sitio web.'
+    who_are_we:
+      title: 'Quiénes Somos'
+      paragraph_one: 'A mediados de 2014, cinco jóvenes emprendedores se reunieron para materializar una idea que habían tenido meses antes: crear un marketplace en donde compradores y vendedores de boletos y entradas para todo tipo de conciertos, eventos deportivos y culturales pudieran encontrar con quien intercambiar dichos boletos.'
+      paragraph_two: 'Así nació Bolettos.com el primer sitio web 100% mexicano dedicado al mercado secundario de boletos para todo tipo de espectáculos. En Bolettos.com, podrás publicar, de manera totalmente fácil y segura, boletos que te sobren para todo tipo de eventos en México. Asimismo, en caso de que necesites boletos para esos eventos, podrás encontrar a otros fans que te vendan los que te faltan.'
+      paragraph_three: 'Bolettos.com busca que al formalizar el mercado secundario de boletos para espectáculos, aumente la asistencia a espectáculos públicos y se vea fomentado el sector de la cultura y el entretenimiento en México, ayudando a la creación de empleos y a la formalización y regularización de una actividad que, hasta ahora, se encontraba principalmente en el sector informal.'
+    faqs:
+      title: 'Preguntas Frecuentes'
+      paragraph_one_html: "Aquí encontrarás las preguntas que nuestros usuarios nos hacen más seguido. Si tienes alguna pregunta que no está desarrollada aquí, consulta nuestros <a href='/public/terms' target='_blank' title='Términos y Condiciones'>Términos y Condiciones</a> y el <a href='/public/privacy' target='_blank' title='Aviso de Privacidad Integral'>Aviso de Privacidad</a> Integral. <a href='/contacts/new' title='Contactanos'>Queremos oír de tí!</a> Si tienes dudas, comentarios o sugerencias, contáctanos!"
+      category_one_html: '<li> PARA TODOS </li>'
+      category_two_html: '<li> PARA VENDEDORES</li>'
+      category_three_html: '<li>PARA COMPRADORES</li>' 
+      question1_html: '<li> ¿Qué es Bolettos.com? </li>'
+      answer1_html: 'Bolettos.com es un sitio web creado por jóvenes mexicanos para todos aquellos a quienes les sobren o les falten boletos para cualquier concierto, espectáculo o evento deportivo. Somos la primera plataforma 100% mexicana donde podrás encontrar al comprador de un boleto que te haya sobrado o al vendedor de un boleto del evento al que quieres ir, pero no pudiste comprar en taquilla.'
+      question2_html: '<li>¿Bolettos.com compra o vende boletos?</li>'
+      answer2_html: 'Salvo en casos particulares donde contemos con los permisos correspondientes (y así te lo indiquemos), Bolettos.com no compra ni vende los boletos que verás publicados en nuestro sitio web.  Somos una herramienta para que quienes quieran comprarlos o venderlos, amplíen su comunidad, y puedan hacerlo con otros fans, de la manera más fácil y segura.'  
+      question3_html: '<li>¿Por qué debería usar Bolettos.com?</li>'
+      answer3_html: "Bolettos.com es la primera plataforma 100% mexicana que permite a fans de todo tipo de evento comprar o vender sus boletos en línea, de la forma más fácil, segura y rápida. En caso de que surja algún problema con boletos comprados, haremos nuestro mayor esfuerzo para conseguirte iguales o mejores boletos o te regresamos tu dinero. Asimismo, garantizamos el pago por los boletos vendidos, siempre y cuando siempre cumplas con nuestros <a href='/public/terms' target='_blank' title='Términos y Condiciones'>Términos y Condiciones</a> y tus responsabilidades como vendedor. En Bolettos.com todas las transacciones están 100% garantizadas. Nuestra garantía es posible gracias a que:
+      <ul>
+      <li>Monitoreamos todas las órdenes realizadas en nuestro sitio web.</li>
+      <li>Contamos con sistemas de pago seguros y confiables.</li>
+      <li>Para el traslado de los boletos intercambiados en nuestro sitio, sólo usamos servicios de mensajería de primer nivel.</li>
+      <li>Únicamente pagamos a los vendedores una vez que los eventos hayan sido celebrados y no haya habido quejas por parte del comprador.</li>
+      </ul>"
+      question4_html: '<li>Al comprar o vender mis boletos, ¿tendré contacto con el vendedor/comprador?</li>'
+      answer4_html: 'Bolettos.com se encarga de recoger los boletos del vendedor, llevarlos al comprador y procesar los pagos del comprador hasta el vendedor. Como vendedor, lo único que tienes que hacer es publicar tus boletos y entregarlos cuando los mismos hayan sido vendidos. Como comprador, al haber pagado tus boletos, nosotros nos encargamos de todo lo demás. De lo único que tienes que preocuparte es de recibir tus boletos y llegar a tiempo al evento!'
+      question5_html: '<li>¿Usar la página es gratis? ¿Bolettos.com me va a cobrar algo?</li>'
+      answer5_html: 'El uso y la navegación en Bolettos.com es completamente gratuita. Sin costo alguno, podrás ver boletos que te interesen, publicar tus boletos, disfrutar del contenido que hemos preparado para tí, conocer más acerca de los artistas o eventos que te gusten y ver los videos y demás contenido que publiquemos. En Bolettos.com no cobramos por suscripciones ni mensualidades! Si vendes los boletos que te sobran en Bolettos.com, o si te faltan boletos y los encuentras en Bolettos.com, realizaremos un cargo por servicio equivalente al 15% del precio del(los) boleto(s) al vendedor, y otro cargo por servicio por la misma cantidad al comprador. Estos cargos incluirán:
+       <ul>
+       <li>Los servicios de mensajería para trasladar los boletos del vendedor al comprador.</li>
+       <li>La puesta a disposición del servicio de intermediación y de nuestro sitio web, el cual permite a miles de personas encontrar los boletos que les falten, o vender los que les sobren, de la forma más fácil y segura.</li>
+       <li>La puesta a disposición de los sistemas de pago en línea.</li>
+       <li>Nuestra garantía en caso de haber algún problema con los boletos que hayas comprado.</li>
+       </ul>'
+      question6_html: '<li>¿Qué pasa si un evento se cancela o pospone?</li>'
+      answer6_html: 'No nos gusta que los eventos sean cancelados o pospuestos, pero lamentablemente, estas cosas pueden ocurrir y están fuera de nuestro control. Lidiamos con estas situaciones de caso en caso, pero las siguientes son las reglas generales:
+      <ul>
+      <li>En caso de que algún evento sea cancelado, todas las publicaciones de boletos serán automáticamente borradas; en caso de ser pospuesto, únicamente modificaremos la información correspondiente. En ambos casos, los usuarios que hayan publicado boletos recibirán un correo avisándoles de la situación de que se trate.</li>
+      <li>En caso de boletos que ya hayan sido comprados, si los boletos deben ser regresados al vendedor para que sean cambiados o reembolsados (según corresponda), le pediremos los boletos al comprador. Si no es necesario que el vendedor realice el proceso de cambio o reembolso personalmente, la compra será final.</li>
+      <li>Si compraste boletos para un evento pospuesto y no puedes ir a la fecha nueva, al menos que el vendedor acepte los boletos de vuelta la venta será final. No te preocupes, si no puedes ir al evento en la nueva fecha, siempre puedes vender tus boletos en Bolettos.com!</li>
+      <li>No habrá reembolsos por cambios de hora, recinto o por eventos realizados parcialmente.</li>
+      </ul>'    
+      question7_html: '<li>¿Existen derechos de preferencia, apartados u otros derechos especiales para usuarios consentidos?</li>'
+      answer7_html: 'Por el momento no tenemos implementados programas de lealtad para nuestros usuarios regulares. Si te encanta Bolettos.com y quieres mantenerte al tanto de nuestras promociones, beneficios y noticias, suscríbete a nuestro newsletter aquí.'    
+      question8_html: '<li>¿Cómo modifico los datos en Mi Perfil?</li>'
+      answer8_html: 'Muy fácil. Sólo inicia tu sesión, ingresa a tu perfil (dando click en tu nombre, del lado superior derecho de la pantalla) y selecciona los campos que quieras modificar, haz tus cambios y dale click en guardar.'    
+      question9_html: '<li>Olvidé mi contraseña, ¿me ayudan a recuperarla?</li>'
+      answer9_html: "Claro! Sólo da click <a href='/users/password/new' title='Recuperar contraseña'>aquí.</a>"    
+      question10_html: '<li>Noté comportamiento abusivo por parte de otro usuario. ¿Qué puedo hacer?</li>'
+      answer10_html: 'En caso de notar comportamiento abusivo por parte de algún usuario, por favor avísanos! Manda un correo a contacto@bolettos.com y veremos qué podemos hacer para solucionar el problema. Nuestro objetivo es que nuestros usuarios tengan una experiencia inolvidable en Bolettos.com'    
+      question11_html: '<li>Me sobran boletos. ¿Cómo los puedo vender en Bolettos.com?</li>'
+      answer11_html: 'Muy fácil! En Bolettos.com, publicar boletos es gratis y sencillo. Solo encuentra el evento del que sean tus boletos y da click en “me sobran”. Regístrate o crea tu cuenta y lista los boletos que quieras vender, incluyendo el precio al que quieres venderlos. Si tienes boletos para un evento que no hayamos publicado, avísanos y haremos lo posible para incluirlo.'    
+      question12_html: '<li>¿Cuáles son mis responsabilidades como vendedor en Bolettos.com?</li>'
+      answer12_html: "Para que todos estemos contentos, es importante que sigamos las reglas. Como vendedor, tienes responsabilidades que tienes que cumplir, ayudándonos a poder pagarte a tiempo, a no penalizarte, y a los compradores de tus boletos a poder asistir a los eventos que les gustan! Si no cumples con tus responsabilidades como vendedor, podremos aplicarte las sanciones descritas en nuestros <a href='/public/terms' target='_blank' title='Términos y Condiciones'>Términos y Condiciones</a>.  Tus principales responsabilidades son:
+      <ul>
+      <li>Publica boletos válidos y que no hayan sido usados. Parecería algo obvio, pero no queremos dejar de decírtelo. En caso de que publiques boletos falsos, que hayan sido usados o que no correspondan con los que efectivamente entregues, podremos realizarte cargos por concepto de penalizaciones, así como para cubrir cualquier gasto que hayamos tenido que hacer para reembolsar al comprador o para encontrar y entregar boletos para sustituir los tuyos.</li>
+      <li>Únicamente publica boletos que tengas en tu poder. Entendemos que a veces eres dueño de boletos que no tienes físicamente, pero es importante que, cuando publiques boletos en Bolettos.com los tengas en tu poder. Habrá veces que te sorprenderá la velocidad a la que se venden los boletos, y es importante que, al esto pasar, puedas entregarlos inmediatamente.</li>
+      <li>Publica boletos de lugares que estén juntos. A nadie le gusta que lo sienten separado de su novia en el teatro, o que manden a sus amigos a otra zona en un concierto. Por eso, cuando publiques boletos numerados, asegúrate que son de lugares que estén juntos, o bien publícalos por separado.</li>
+      <li>Cumple con lo prometido. Muy fácil: entrega a tiempo todos los boletos que hayas vendido al servicio de mensajería, asegurándote que son exactamente los vendidos. Nosotros te avisaremos cuando hayas vendido los boletos para que estés listo. Cuando un vendedor no cumple con lo que le corresponde, nos hace quedar mal a todos, y nuestra reputación (y la de nuestros vendedores) se ve afectada. Recuerda que esperamos que cumplas con todas las ofertas realizadas en Bolettos.com y nos reservamos el derecho de hacer cualquier cargo que resulte necesario para que los compradores puedan recibir los boletos comprados en Bolettos.com</li>
+      </ul>"
+      question13_html: '<li>¿Hay otras cosas que no puedo hacer?</li>'
+      answer13_html: "Si. Para poder brindar una experiencia inolvidable a todos nuestros usuarios, además de cumplir con los <a href='/public/terms' target='_blank' title='Términos y Condiciones'>Términos y Condiciones</a> y tus Responsabilidades como Vendedor, es importante que:
+      <ul>
+      <li>No trates de contactar a otros usuarios. Para eso estamos nosotros.</li>
+      <li>No vendas por otro lado los boletos publicados en Bolettos.com. Si por cualquier razón ya no tienes los boletos publicados, es importante que borres la publicación inmediatamente. En caso de que alguien compre boletos publicados por ti, esperamos que cumplas con la oferta realizada y entregues los boletos vendidos.</li>
+      <li>Únicamente mete al sobre del servicio de mensajería los boletos que hayas vendido. Está prohibido meter material promocional, cupones, catálogos, tarjetas de presentación o cualquier otro artículo que no sean los boletos vendidos al sobre en el que envíes tus boletos.</li>
+      </ul>"
+      question14_html: '<li>¿Qué pasa si rompo las reglas?</li>'
+      answer14_html: "Aunque nos gustaría pensar que todos nuestros usuarios van a jugar limpio y seguir las reglas, sabemos que no podemos garantizar que así será. Si en cualquier momento incumples con tus responsabilidades como vendedor o nuestros <a href='/public/terms' target='_blank' title='Términos y Condiciones'>Términos y Condiciones</a>, podremos aplicarte las sanciones descritas ahí. Estos incumplimientos incluyen, pero no están limitados, a que publiques boletos distintos a los que entregues, o que de cualquier forma contengan información incorrecta o confusa; boletos falsos, previamente usados o que no tengas derecho a vender. Cuando tu incumplimiento implique gastos hechos por Bolettos.com (incluyendo el remplazo de boletos al comprador, rembolsos u otros costos) podremos cobrarte todos dichos gastos y/o no pagarte los boletos vendidos, así como cargos adicionales por concepto de penalizaciones y/o llevar a cabo la suspensión o cancelación de tu cuenta." 
+      question15_html: '<li>¿Existen limitaciones al número de boletos que puedo vender en Bolettos.com?</li>'
+      answer15_html: 'Para evitar comportamiento abusivo en Bolettos.com, hemos limitado la cantidad de boletos que pueden ser ofrecidos por usuario por evento en la misma medida que los principales organizadores de eventos lo hacen en taquilla.'   
+      question16_html: '<li>¿Tengo que vender mis boletos a algún precio en particular?</li>'
+      answer16_html: 'Bolettos.com no interviene en la fijación del precio al cual los boletos son ofrecidos en nuestro sitio. Cuando publiques tus boletos toma en cuenta que podría haber limitaciones legales (o de cualquier otro tipo) al precio al cual los puedes ofrecer, y toma en cuenta también que para tener mayor posibilidad de vender tus boletos, es importante ofrecerlos a un precio competitivo.'    
+      question17_html: '<li>Publiqué información incorrecta de mis boletos. ¿Qué hago?</li>'
+      answer17_html: 'Si los boletos no han sido vendidos a nadie, puedes editar tu publicación. Inicia sesión y ve a tu perfil (parte superior derecha de la pantalla). Una vez ahí, ve a la pestaña de "Boletos Publicados" y busca los boletos en donde tuviste el error, y edita la información de tus boletos. Si los boletos ya fueron vendidos, esperamos que cumplas con entregar exactamente los boletos que anunciaste. Si por cualquier razón no puedes hacer esto, tendremos que conseguir boletos para reemplazar los publicados por ti y entregarlos al comprador. En este caso, podremos cobrarte cualquier costo que tu incumplimiento nos genere, así como penalizaciones adicionales y/o la suspensión o cancelación de tu cuenta.'    
+      question18_html: '<li>Quiero modificar los datos de boletos ya publicados. ¿Cómo le hago?</li>'
+      answer18_html: 'Inicia sesión y ve a tu perfil (parte superior derecha de la pantalla). Una vez ahí, ve a la pestaña de "Boletos Publicados" y busca los boletos correspondientes y edita la información de tus boletos.'    
+      question19_html: '<li>Quiero borrar una publicación de boletos. ¿Cómo le hago?</li>'
+      answer19_html: 'Muy fácil! Inicia sesión y ve a tu perfil (parte superior derecha de la pantalla). Una vez ahí, ve a la pestaña de "Boletos Publicados" y busca los boletos que quieras borrar. Da click en la X y tu publicación habrá sido eliminada.'    
+      question20_html: '<li>Quisiera cancelar la venta de boletos ya comprados. ¿Qué pasa?</li>'
+      answer20_html: 'Se espera de todo vendedor que cumpla con la entrega de los boletos publicados y vendidos. Si ya vendiste boletos en Bolettos.com y por cualquier razón no vas a poder entregarlos, es importante que nos notifiques inmediatamente. En este caso, podremos hacerte los cargos que resulten necesarios para conseguir boletos de repuesto para el comprador.'    
+      question21_html: '<li>¿Cómo sé si ya se vendieron los boletos que publiqué?</li>'
+      answer21_html: 'Una vez que se hayan vendido los boletos que publicaste, te enviaremos un correo de confirmación. Es importante que revises constantemente tu correo (incluyendo el buzón de correo no deseado o spam – algunas veces nuestros correos llegarán directamente a estas carpetas) para que puedas entregar los boletos a tiempo al servicio de mensajería designado.'    
+      question22_html: '<li>Ya me llegó el mail de confirmación de venta de mis boletos. ¿Qué sigue?</li>'
+      answer22_html: 'Muy pronto iremos a la dirección que nos hayas dado para recoger los boletos. Es muy importante que estés listo y tengas los boletos en tu poder, para evitar costos adicionales por intentos fallidos de recepción de los boletos.'    
+      question23_html: '<li>Mis boletos ya se vendieron en Bolettos.com y no voy a poder entregarlos. ¿Qué hago?</li>'
+      answer23_html: 'Si ya vendiste boletos en Bolettos.com y por cualquier razón no vas a poder entregarlos, es importante que nos notifiques inmediatamente. En este caso, podremos hacerte los cargos que resulten necesarios para conseguir boletos de repuesto para el comprador.'      
+      question24_html: '<li>Hay un problema con los boletos que vendí en Bolettos.com</li>'
+      answer24_html: 'Entendemos que las cosas no siempre suceden como las planeamos y que pueden surgir problemas con tus boletos. En caso de que haya algún problema con boletos publicados y vendidos en Bolettos.com, debes notificarnos inmediatamente enviando un correo a contacto@Bolettos.com donde describas a detalle la situación para que veamos qué podemos hacer al respecto. Si el problema surge respecto a boletos publicados y todavía no vendidos, debes borrar la publicación inmediatamente. Por favor toma en cuenta que, al todas las ventas ser finales en Bolettos.com, en caso que haya un problema con boletos vendidos, se podrán hacer cargos a los vendedores por concepto de penalizaciones y para cubrir los costos generados para la reposición de los boletos en beneficio del comprador.'
+      question25_html: '<li>Me sobran o me faltan boletos pero el evento no aparece en Bolettos.com. ¿Qué hago?</li>'
+      answer25_html: 'En Bolettos.com publicaremos los eventos respecto a los cuales esperamos que haya la mayor oferta y demanda por parte de nuestros usuarios. En caso que te sobren o te falten boletos para un evento que no aparezca en Bolettos.com, avísanos y haremos lo posible para incluirlo. Nuestro principal objetivo es que estés contento.'
+      question26_html: '<li>Soy nuevo en Bolettos.com. ¿Cómo le hago para comprar boletos?</li>'
+      answer26_html: 'Bienvenido! Sabemos que nunca es fácil ser nuevo, y queremos hacer de tu experiencia en Bolettos.com algo inolvidable. Buscar boletos en nuestra página es completamente gratis y no necesitas registrarte; sin embargo, para comprar los boletos que hayas visto, necesitarás registrarte o ingresar con tu cuenta. Para comprar boletos, sólo tienes que seguir estos pasos:
+      <ul>
+      <li>Encuentra el evento al que quieres ir. Si no lo encuentras en la página principal, puedes buscar por lugar, nombre del artista o fecha. Además, puedes buscar por tipo de evento (conciertos, deportes, espectáculos).</li>
+      <li>Ya que hayas encontrado el evento al que quieras ir, selecciona los boletos que te gusten. Puedes filtrar tu búsqueda por secciones y tipos de boletos.</li>
+      <li>Cuando hayas encontrado los boletos que te gustan, has click en “comprar” (en este paso se te pedirá que inicies sesión o te registres).</li>
+      <li>Selecciona tu forma de pago.</li>
+      <li>Termina el proceso de compra y espera un email de confirmación, donde podrás ver tu número de orden y demás datos de tu compra.</li>
+      </ul>'
+      question27_html: '<li>¿De dónde vienen los boletos que veo publicados en Bolettos.com?</li>'
+      answer27_html: 'Bolettos.com es una plataforma de mercado secundario de boletos para todo tipo de espectáculos. Esto significa que todos los boletos publicados en nuestro sitio web ya fueron adquiridos por los usuarios que los publicaron. A diferencia de otras páginas, salvo que así lo indiquemos claramente (y contemos con las autorizaciones necesarias), ninguno de los boletos que ves en Bolettos.com es nuestro, sino de otros fans a quienes les sobran.'
+      question28_html: '<li>¿A qué precio están publicados los boletos en Bolettos.com?</li>'
+      answer28_html: 'Al publicar boletos en Bolettos.com, el vendedor debe indicar al precio al que quiere que se vendan sus boletos. Al permitir que los boletos sean publicados a valor de mercado (que podría o no coincidir con el precio que aparezca impreso en los boletos), los vendedores deberán mantenerse competitivos para poder vender sus boletos.'
+      question29_html: '<li>¿Cómo pago los boletos que quiero comprar?</li>'
+      answer29_html: 'Muy fácil! En la página encontrarás distintas formas de pago que son completamente seguras y confiables. Puedes pagar con cargo a tu tarjeta de crédito o débito, o con depósito en efectivo en la tienda OXXO más cercana.'
+      question30_html: '<li>¿Cómo y cuándo me van a llegar mis boletos?</li>'
+      answer30_html: 'Sabemos que estás muy emocionado por haber comprado tus boletos en Bolettos.com y que no hay nada que quieras más que tenerlos en tus manos. Una vez que hayas comprado tus boletos, notificaremos al vendedor para que te los pueda enviar. Solo usamos a servicios de mensajería de primera calidad y haremos lo que podamos para que tengas tus boletos lo más rápido posible.'
+      question31_html: '<li>Mis boletos no llegaron cuando me tenían que llegar. ¡Ayúdenme!</li>'
+      answer31_html: 'Bolettos.com te garantiza que recibirás tus boletos a tiempo para el evento. En el supuesto que los boletos no lleguen a tiempo, haremos lo posible para conseguirte boletos iguales o mejores o, en el peor de los casos, te regresaremos tu dinero. Constantemente monitoreamos todas las transacciones que se realizan en Bolettos.com para asegurarnos que no haya problema con la entrega de los mismos.'
+      question32_html: '<li>Ya tengo mis boletos pero no voy a poder ir al evento. ¿Qué puedo hacer?</li>'
+      answer32_html: 'Nos pone muy tristes que no vayas a poder ir al evento. Si ya tienes tus boletos y estás a tiempo, véndelos en Bolettos.com! Hay miles de fans que podrían estar interesados en comprártelos.'
+      question33_html: '<li>Cosas que todo fan debe revisar antes de ir a cualquier evento:</li>'
+      answer33_html: 'Queremos tanto como tú que tengas una experiencia inolvidable en el evento. Por eso, te recomendamos hacer lo siguiente antes de ir a cualquier evento:
+      <ul>
+      <li>Revisa constantemente tu correo electrónico (incluyendo el buzón de correo no deseado o spam – algunas veces nuestros correos llegarán directamente a estas carpetas).</li>
+      <li>Asegúrate que la forma de pago elegida sea correcta y que puedas cubrir las cantidades correspondientes.</li>
+      <li>Asegúrate que la dirección de envío de los boletos es la correcta. No queremos enviar tus boletos a alguien más! También asegúrate que alguien vaya a poder recibir los boletos.</li>
+      <li>Revisa con cuidado la información de los boletos escogidos antes de terminar el proceso de compra. Recuerda: en Bolettos.com todas las compras son finales.</li>
+      <li>No le des tus datos de ingreso (incluyendo tu contraseña) a nadie. Recuerda: eres responsable de cualquier uso que se le dé a tu cuenta. Si sospechas que alguien podría tener acceso a tu cuenta, cambia tu contraseña inmediatamente.</li>
+      <li>Al recibir los boletos, revisa que sean exactamente los que compraste y que los datos coincidan con tu orden de compra. Esto es importantísimo ya que, en caso de que haya alguna discrepancia entre lo comprado y lo recibido, nos tienes que avisar inmediatamente para que podamos solucionar el problema. Para que podamos ayudarte con cualquier cambio, necesitamos que nos avisas a más tardar dos días después de haber recibido tus boletos.</li>
+      <li>Revisa que no haya habido cambios en la celebración del evento (como hora, día, lugar, etc.).</li>
+      </ul>'
+      question34_html: '<li>¿Qué pasa si el boleto es falso, no corresponde con lo que compré o tengo algún problema para entrar al evento?</li>'
+      answer34_html: 'Es muy importante que al recibir tus boletos los revises con cuidado para asegurarte que coinciden exactamente con los que compraste. En caso de que haya alguna diferencia entre los boletos comprados y los recibidos, notifícanoslo inmediatamente, enviando un correo a contacto@bolettos.com, pero en ningún caso después de dos días transcurridos desde que los hayas recibido, o se limitará mucho lo que podamos hacer para ayudarte. Si tienes algún problema para entrar al evento (incluyendo porque los boletos comprados son falsos o si ya fueron usados por otra persona), te regresaremos tu dinero, siempre y cuando nos avises del problema a más tardar dos días hábiles después del evento, por medio de un correo electrónico enviado a contacto@bolettos.com incluyendo todos los datos de tus boletos, tu número de orden y una explicación detallada de lo sucedido'
+    contact:
+      title: 'Contacto'
